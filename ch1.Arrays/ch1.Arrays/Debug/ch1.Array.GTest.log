@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ch1.Arrays.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  test.cpp
+D:\StudyWorkspace\CppMaster\ch1.Arrays\ch1.Arrays\ArrayList.hpp(12,16): warning C4018: '>': signed/unsigned mismatch
+D:\StudyWorkspace\CppMaster\ch1.Arrays\ch1.Arrays\ArrayList.hpp(11): message : while compiling class template member function 'ArrayList<int>::ArrayList(int)'
+D:\StudyWorkspace\CppMaster\ch1.Arrays\ch1.Arrays\test.cpp(12): message : see reference to function template instantiation 'ArrayList<int>::ArrayList(int)' being compiled
+D:\StudyWorkspace\CppMaster\ch1.Arrays\ch1.Arrays\test.cpp(8): message : see reference to class template instantiation 'ArrayList<int>' being compiled
+  ch1.Array.GTest.vcxproj -> D:\StudyWorkspace\CppMaster\ch1.Arrays\Debug\ch1.Array.GTest.exe
